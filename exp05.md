@@ -29,7 +29,7 @@
 
 * 初次运行，发现由于没有Android SDK报错  
 
-![8](https://github.com/CUCCS/2021-mis-public-LLLanW/blob/exp05/img/installas.png)  
+![8](https://github.com/CUCCS/2021-mis-public-LLLanW/blob/exp05/img/asfail.png)  
 
 * 下载安装Android SDK
 
