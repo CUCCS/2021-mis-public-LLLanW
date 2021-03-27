@@ -71,14 +71,15 @@
 
 * 根据[第一章实验课件](https://c4pr1c3.github.io/cuc-mis/chap0x01/exp.html)下载安装  
 
-![1](https://github.com/CUCCS/2021-mis-public-LLLanW/blob/exp01/img/1.png)  
 ![2](https://github.com/CUCCS/2021-mis-public-LLLanW/blob/exp01/img/2.png)  
 ![3](https://github.com/CUCCS/2021-mis-public-LLLanW/blob/exp01/img/3.png)  
 ![4](https://github.com/CUCCS/2021-mis-public-LLLanW/blob/exp01/img/4.png)  
 
+* 在生成vdi时，**一定记得进行扩容操作**`VBoxManage modify medium disk --resize 10240 openwrt-x86-64-combined-squashfs.vdi`，否则后续由于空间不足无法进行实验
+
 * 在生成vdi文件时，出现`VBoxManage：command not foundCommand not found`的现象，按照[本文档](https://jingyan.baidu.com/article/597a064387244a702b5243e0.html)操作即可解决  
 
-* 在生成vdi时，**一定记得进行扩容操作**，否则后续由于空间不足无法进行实验
+
 
 ### 配置Openwrt网络
 
